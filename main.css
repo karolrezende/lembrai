@@ -1,4 +1,12 @@
+/* @import url("./tailwind.css"); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("./tailwind.css");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
