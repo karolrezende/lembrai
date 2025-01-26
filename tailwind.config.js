@@ -4,7 +4,7 @@ export default {
     './components/**/*.{vue,js,ts}',
     './pages/**/*.{vue,js,ts}',
     './layouts/**/*.{vue,js,ts}',
-    './app.vue',
+    './app.vue'
   ],
   theme: {
     colors: {
@@ -14,10 +14,9 @@ export default {
       tertiary: '#4FA5AA',
       quaternary: '#267B80',
       quinary: '#0B5155',
-      danger: '#BB2D14',
+      danger: '#BB2D14'
     },
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: []
 }
-
