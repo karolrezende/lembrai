@@ -7,15 +7,14 @@
           Organize suas ideias, marque o que importa, e lembre-se de tudo com o
           <span class="text-quaternary">lembrai</span>
         </p>
-
       </header>
-        <section>
-      <img
+      <section>
+        <img
           src="@/assets/illustrations/page-check.png"
           alt="Papel de parede"
         />
         <Button>Bora Começar</Button>
-          </section>
+      </section>
     </div>
   </main>
 </template>
@@ -34,7 +33,7 @@
   }
 
   img {
-    @apply w-auto max-w-xs md:max-w-sm ;
+    @apply w-auto max-w-xs md:max-w-sm;
   }
 
   section {
