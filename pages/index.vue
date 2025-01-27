@@ -21,15 +21,15 @@
 <script></script>
 <style>
   .container {
-    @apply bg-primary text-secondary min-w-full min-h-screen;
+    @apply bg-primary text-secondary min-w-full min-h-screen flex justify-center items-center;
   }
 
   .content {
-    @apply min-h-screen flex flex-col justify-evenly items-center px-12 py-20 md:py-20 md:px-40 xl:px-[32rem] 2xl:px-[40rem];
+    @apply min-h-screen flex flex-col justify-evenly items-center gap-8 custom-width;
   }
 
   header {
-    @apply flex flex-col gap-8;
+    @apply flex flex-col gap-8 w-full;
   }
 
   img {
@@ -37,6 +37,6 @@
   }
 
   section {
-    @apply flex flex-col items-center gap-8 w-full;
+    @apply flex flex-col items-center gap-20 w-full;
   }
 </style>

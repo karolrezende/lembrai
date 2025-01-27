@@ -1,3 +1,5 @@
+import customUtilities from './tailwind.utilities'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -18,5 +20,5 @@ export default {
     },
     extend: {}
   },
-  plugins: []
+  plugins: [customUtilities]
 }
