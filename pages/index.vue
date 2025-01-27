@@ -2,19 +2,20 @@
   <main class="container">
     <div class="content">
       <header>
-        <img src="@/assets/icons/logo.svg" alt="lembrai" />
+        <img src="@/assets/icons/logo.svg" alt="lembrai" class="self-start" />
         <p class="text-2xl">
           Organize suas ideias, marque o que importa, e lembre-se de tudo com o
           <span class="text-quaternary">lembrai</span>
         </p>
+
       </header>
-      <section>
+        <section>
       <img
           src="@/assets/illustrations/page-check.png"
           alt="Papel de parede"
         />
         <Button>Bora Começar</Button>
-      </section>
+          </section>
     </div>
   </main>
 </template>
@@ -25,7 +26,7 @@
   }
 
   .content {
-    @apply min-h-screen flex flex-col justify-evenly items-center px-16 py-20 md:py-20 md:px-40;
+    @apply min-h-screen flex flex-col justify-evenly items-center px-12 py-20 md:py-20 md:px-40 xl:px-[32rem] 2xl:px-[40rem];
   }
 
   header {
@@ -33,7 +34,7 @@
   }
 
   img {
-    @apply w-auto max-w-xs md:max-w-sm self-start;
+    @apply w-auto max-w-xs md:max-w-sm ;
   }
 
   section {
