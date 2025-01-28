@@ -21,7 +21,7 @@
 <script></script>
 <style>
   .container {
-    @apply bg-primary text-secondary min-w-full min-h-screen flex justify-center items-center;
+    @apply bg-primary text-secondary min-w-full min-h-screen flex justify-center items-center font-semibold;
   }
 
   .content {
